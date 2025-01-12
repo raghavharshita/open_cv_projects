@@ -17,7 +17,7 @@ def draw(event,x,y,flag,params):
         g=img[y,x,1]
         r=img[y,x,2]
         s="."+str(b)+", "+str(g)+", "+str(r)
-        c.putText(img, s, (x,y), font, 1, (142,52,16),2)      
+        c.putText(img, s, (x,y), font, 1, (51,204,102),2)      
 
 c.namedWindow(winname="result")
 #img=np.zeros([512,512,3],np.uint8)*255
